@@ -10,12 +10,12 @@ access the COM5(Arduino/Genuino) Window.
 2) Then Run the python code, remember to install all dependencies first. pyautogui, opencv and numpy(auto installed with opencv so 
 no worry)
 
-3) The python code will open up a new window showing your face. It works on a harcascade classifier that was trained by team of
-openCV. It is very light weight, so I used it, otherwise you can always use Cocoa Dataset with Spyder.
+3) The python code will open up a new window showing your face. It works on a harcascade classifier that was trained by the team of
+openCV developers. It is very light weight, so I used it, otherwise you can always use Cocoa Dataset with Spyder and copy the code there.
 (refer https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-4) Now select the COM5 window. As soon as it detects a Face, the alarm will go off in a continuoum. Then you have to manually reset
-alarm from the UNO board itself... 
+4) Now select the COM5 window that was opened earlier. As soon as python detects a face( you don't need to pull the camera window out , but selecting COM5 window is a must~!), the alarm will go off in a spiral. Then you have to manually reset
+alarm from the UNO board itself, which is general layout of every alarm... 
 
 NOTE: This works great because, it doesnot work like a motion detector. In motion detector a rat or a bug can put off the alarm, 
 here it is not the case. Better the Dataset better the result. 
