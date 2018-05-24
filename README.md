@@ -24,3 +24,16 @@ LIMITATION of this code: Harcascade Classifier/ detector is primitive in detecti
 This is intentional because of the speed trade off it provides and can easily be run on RPi with finite memory demand.
 
 Any Issues, Just place an issue and I'll try resolve it. 
+
+Source of all Info:
+
+https://www.arduino.cc/en/Tutorial/KeyboardSerial
+
+Face Detection:
+http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html#face-detection
+
+Mario Theme Song:
+
+https://www.princetronics.com/supermariothemesong/
+
+Special Thanks to : https://github.com/Invince11 ( For suggestions for pyautogui and connecting both the codes together )
